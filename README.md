@@ -8,10 +8,10 @@ arguments: (1) a model parameters file, (2) a test file
 
 Model Parameter File model parameters are stored in the file according to
 the following format: 
-# of states (let’s say N) 
+Num of states (let’s say N) 
 Initial state probabilities (N values here) 
 Transition probabilities (This will contain N*N values in the transition matrix. The values are row-based.) 
-# of output symbols (let’s say M) 
+Num of output symbols (let’s say M) 
 Output alphabet (M values here. They can be discrete numbers or strings for the observations) 
 Output distributions (This will contain N*M values, M values for probability mass function for each state, one by one.)
 
